@@ -1,5 +1,5 @@
 .sky {
-	height: 800px;
+	height: 500px;
 	position: relative;
 	animation: sky 5s infinite;
 }
@@ -22,7 +22,7 @@
 }
 @keyframes sunset {
 	from {top: 30px;}
-	to {top: 800px;}
+	to {top: 500px;}
 }
 .moon {
 	width: 90px;
@@ -32,15 +32,15 @@
 	animation: moon 5s infinite;
 }
 @keyframes moon {
-	from {top: 800px;}
+	from {top: 500px;}
 	to {top: 30px;}
 }
 .train {
 	position: absolute;
-	/*z-index: 1;*/
+	z-index: 1;
 	width: 111.1px;
 	height: 100px;
-	top: 700px;
+	top: 400px;
 	animation: train 5s infinite;
 }
 @keyframes train {
