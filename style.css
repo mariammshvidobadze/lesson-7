@@ -1,0 +1,36 @@
+.sky {
+	height: 800px;
+	position: relative;
+	animation: sky 5s infinite;
+}
+.ground {
+	position: relative;
+	background-color: #000000;
+	height: 100px;
+	z-index: 1;
+}
+@keyframes sky {
+	from {background-color: #F0F8FF;}
+	to {background-color: #4B0082;}
+}
+.sun {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	right: 20px;
+	animation: sunset 5s infinite;
+}
+@keyframes sunset {
+	from {top: 30px;}
+	to {top: 800px;}
+}
+.moon {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: 20px;
+	animation: moon 5s infinite;
+}
+@keyframes moon {
+	from {top: 800px;}
+	to {top: 30px;}
